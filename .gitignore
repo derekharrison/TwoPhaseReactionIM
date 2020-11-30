@@ -1,0 +1,9 @@
+Debug/
+.cproject
+.project
+.metadata
+.settings
+*.aux
+*.log
+*.gz
+*.tex
