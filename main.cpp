@@ -24,18 +24,18 @@ int main(int argc, char* argv[]) {
     s_data solver_data;
 
     /* Simulation parameters */
-    grid_params.N = 10;                      //Number of nodes
-    grid_params.H = 0.5;                     //Height of liquid/gas section
-    grid_params.W = 1.0;                     //Width of reactor
-    grid_params.L = 1.0;                     //Length of reactor
+    grid_params.N = 10;                    //Number of nodes
+    grid_params.H = 0.5;                   //Height of liquid/gas section
+    grid_params.W = 1.0;                   //Width of reactor
+    grid_params.L = 1.0;                   //Length of reactor
 
-    physical_params.Ug = 1.0;                    //Gas phase velocity
-    physical_params.Ul = 1.0;                    //Liquid phase velocity
-    physical_params.kg = 1.0;                    //Mass transfer coefficient gas phase
-    physical_params.kl = 1.0;                    //Mass transfer coefficient liquid phase
-    physical_params.K = 2.0;                     //Equilibrium coefficient
-    physical_params.Cag0 = 1.0;                  //Inlet concentration of component A in gas phase
-    physical_params.Cal0 = 0.0;                  //Inlet concentration of component A in liquid phase
+    physical_params.Ug = 1.0;              //Gas phase velocity
+    physical_params.Ul = 1.0;              //Liquid phase velocity
+    physical_params.kg = 1.0;              //Mass transfer coefficient gas phase
+    physical_params.kl = 1.0;              //Mass transfer coefficient liquid phase
+    physical_params.K = 2.0;               //Equilibrium coefficient
+    physical_params.Cag0 = 1.0;            //Inlet concentration of component A in gas phase
+    physical_params.Cal0 = 0.0;            //Inlet concentration of component A in liquid phase
 
     time_data.Nt = 20;                     //Number of timesteps
     time_data.to = 0.0;                    //Initial time
