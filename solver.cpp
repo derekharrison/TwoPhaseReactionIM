@@ -115,9 +115,9 @@ void solver(g_params grid_params, p_params physical_params, t_data time_data, s_
 
     /* Set solver results */
     for(int i = 0; i < N; ++i) {
-    	solver_data->Cag[i] = Cag[i];
-    	solver_data->Cal = Cal;
-    	solver_data->x_c[i] = x_c[i];
+        solver_data->Cag[i] = Cag[i];
+        solver_data->Cal = Cal;
+        solver_data->x_c[i] = x_c[i];
     }
 
 }
