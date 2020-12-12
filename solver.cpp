@@ -120,4 +120,10 @@ void solver(g_params grid_params, p_params physical_params, t_data time_data, s_
         solver_data->x_c[i] = x_c[i];
     }
 
+    /* Deallocate memory */
+    delete [] Cag;
+    delete [] Cago;
+    delete [] Cag_prev;
+    delete [] x_c;
+
 }
